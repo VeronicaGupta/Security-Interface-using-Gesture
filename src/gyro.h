@@ -17,7 +17,7 @@ const float SAMPLE_TIME = 0.05f; // 50ms sampling rate
 
 typedef struct {
     int16_t raw_x, raw_y, raw_z;
-    int16_t avg_x, avg_y, avg_z;
+    int32_t avg_x, avg_y, avg_z;
 } GestureData;
 
 typedef struct {
